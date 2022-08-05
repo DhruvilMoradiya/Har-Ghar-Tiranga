@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js" integrity="sha512-BNaRQnYJYiPSqHHDb58B0yaPfCu+Wgds8Gp/gU33kqBtgNS4tSPHuGibyoeqMV/TJlSKda6FXzoEyYGjTe+vXA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.0/FileSaver.min.js" integrity="sha512-csNcFYJniKjJxRWRV1R7fvnXrycHP6qDR21mgz1ZP55xY5d+aHLfo9/FcGDQLfn2IfngbAHd8LdfsagcCqgTcQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>15 August</title>
+</head>
+
+<body>
+    <input type="text" id="name" maxlength="20">
+    <input type="button" id="btn" value="Add Name">
+
+
+
+    <input type="file" accept="image/*" id="pic"
+        onchange="document.getElementById('output').src=window.URL.createObjectURL(this.files[0])">
+
+
+    <div class="container" id="jpgFile">
+        <p id="showName" class="showName">
+        </p>
+        <img src="15Aug.jpg" class="bg">
+        <img src="" id="output">
+
+
+
+    </div>
+
+<input id="btn2" type="button" value="Get image">
+<a href=""><button>Download JPG</button>
+</a>
+    <div id="result">
+
+    </div>
+    <div class="footer">
+      Created by Dhruvil Moradiya
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

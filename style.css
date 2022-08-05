@@ -1,0 +1,46 @@
+.bg{
+    height: 475px ;
+    width: 360px;
+}
+
+.showName{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    background-color: white;
+    width: 145px;
+    /* height: 100px; */
+    position: absolute;
+    top: 230px;
+    left: 188px;
+    border-radius: 2px;
+}
+
+#btn{
+    display: grid;
+    margin-bottom: 20px;
+}
+
+#jpgFile{
+    width: 360px;
+}
+
+#output{
+    position: absolute;
+    height: 130px;
+    width: 120px;
+    top: 270px;
+    left : 200px;
+}
+
+
+.footer{
+  position: sticky;
+  bottom: 0px;
+  left: 0px;
+  text-align: center;
+  background-color:grey;
+  width: 100vw;
+  color: white;
+}
