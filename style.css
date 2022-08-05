@@ -32,6 +32,8 @@
     width: 120px;
     top: 200px;
     left : 200px;
+border-radius: 50%;
+    border: 5px blue solid;
 }
 
 
