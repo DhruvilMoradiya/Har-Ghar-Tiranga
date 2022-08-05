@@ -33,9 +33,7 @@
     top: 200px;
     left : 200px;
     border-radius: 50%;
-    box-shadow: 0 0 0 4px green,
-    0 0 0 8px white,
-    0 0 0 12px orange;
+    border : 3px orange solid;
 }
 
 
