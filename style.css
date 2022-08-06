@@ -12,8 +12,8 @@
     width: 145px;
     /* height: 100px; */
     position: absolute;
-    top: 350px;
-    left: 188px;
+    top: 346px;
+    left: 182px;
     border-radius: 2px;
 }
 
@@ -30,8 +30,8 @@
     position: absolute;
     height: 140px;
     width: 140px;
-    top: 200px;
-    left : 200px;
+    top: 205px;
+    left : 281px;
     border-radius: 50%;
     border : 3px green solid;
 }
